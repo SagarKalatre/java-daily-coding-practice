@@ -15,7 +15,7 @@ public class Product_Inventory_Management {
 
         // Add 10 units to an existing product.
         for (var prod : productQuantity.entrySet()) {
-            // System.out.println(prod.getKey("Watch"));
+            
             if (prod.getKey().equalsIgnoreCase("Watch")) {
                 int newQty = prod.getValue() + 10;
                 prod.setValue(newQty);

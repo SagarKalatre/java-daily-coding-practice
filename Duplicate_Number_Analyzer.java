@@ -32,7 +32,6 @@ public class Duplicate_Number_Analyzer {
         
 
         // Count total duplicate occurrences.
-        
         HashSet<Integer> duplicate_occures = new HashSet<>();
         int count = 0;
         for (int num : numbers) {
@@ -45,13 +44,15 @@ public class Duplicate_Number_Analyzer {
 
         // Display only unique numbers.
         HashSet<Integer> unique = new HashSet<>();
-        HashSet<Integer> GetUnique = new HashSet<>();
+        // HashSet<Integer> GetUnique = new HashSet<>();
         for (int num : numbers) {
-            if (unique.add(num)) {
-                GetUnique.add(num);
-            }
+            unique.add(num);
+            // if (unique.add(num)) {
+            //     GetUnique.add(num);
+            // }
         }
-        System.out.println("Unique Number : " + GetUnique);
+        System.out.println("Unique Number : " + unique);
+        // System.out.println("Unique Number : " + GetUnique);
 
 
         // Count how many unique numbers exist.
