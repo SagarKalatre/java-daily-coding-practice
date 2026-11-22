@@ -21,6 +21,7 @@ public class Count_word_frequency_using_HashMap {
                 counts.put(words, 1);
             }
         }
+        
         // Print all words with their frequency.
         // System.out.println(counts);     
          for (var entry : counts.entrySet()) {
