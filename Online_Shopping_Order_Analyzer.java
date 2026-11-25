@@ -90,6 +90,6 @@ public class Online_Shopping_Order_Analyzer {
                 count++;
             }
         }
-        System.out.println(unique + " : "+count);
+        System.out.println(unique + " : "+ count);
     }
 }
